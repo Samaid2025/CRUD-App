@@ -1,0 +1,94 @@
+.hleft{
+    background-color: bisque;
+    height: 170px;
+    border: 1px solid black;
+}
+.hright{
+    background-color: violet;
+    height: 170px;
+    /* border: 1px solid black; */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.sidebar{
+    background-color:antiquewhite;
+    height: 700px;
+    border: 3px solid black;
+}
+.content{
+    background-color: aqua;
+    height: 700px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black; 
+}
+.fields{
+    width: 50%;
+    border: solid 1px black;
+}
+.incontent{
+    background-color: burlywood;
+    height: 200px;
+    border: 2px solid black;
+    margin: 2px;
+}
+.menu{
+    background-color: yellowgreen;
+    height: 200px;
+    /* margin: 20px; */
+    border: 3px solid black;
+}
+.logo{
+    height: 170px;
+    padding: 20px;
+}
+.gallary{
+    height: 150px;
+}
+.thumbnail{
+    height: 180px;
+    margin: 10px;
+}
+.Vnav {
+    margin-top: 20px;
+    list-style-type: none;
+    margin: 0;
+
+    padding: 0;
+    width: 150px;
+    background-color: aquamarine;
+} 
+
+.Vnav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.Vnav li a:hover{
+    background-color: burlywood;
+    color: white;
+}
+.vList{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.active{
+    background-color:cadetblue;
+}
+.badge{
+    margin-left: 5px;
+    background-color: peru;
+}
+/* .btn{
+    margin:10px;
+} */
+.btn:hover{
+    background-color: burlywood;
+}
+.footer{
+    background-color: wheat;
+    height: 100px;
+}
+.active{
+    background-color: violet;
+}

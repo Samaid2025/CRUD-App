@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My CRUD App- Update</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+<div class="row">
+    <div class="row">
+        <div class="col-md-2 hleft">
+            <div class="col-md-2">
+                <img class="logo" src="Images/logo.jpg" alt="Not Found">
+            </div>
+        </div>
+        <div class="col-md-7 hright">
+            <h1 class="text-center">Update Employee Record</h1>
+        </div>
+        <div class="col-md-3 hright">
+        </div>
+        <div class="row">
+            <div class="col-md-2  sidebar">
+                <div class="vList">
+                    <ul class="Vnav">
+                        <li><a  href="home.html">Add Employee</a></li>
+                        <li><a class="active" href="#" >Update Employee</a></li>
+                        <li><a href="deleteRecord.html">Delete Employee</a></li>
+                        <li disabled="true"><a href="#">List Employees</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 content">
+                <div class="container">
+
+                    <form action="insert.php" method="post" class="form-horizontal">
+                            <!-- hint -->
+                        <input type="text"  hidden >
+                        <div>
+                            <label for="empid">Employee ID:</label>
+                            <input type="text" class="form-control fields" name="empid">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input class="form-control fields" type="text" name="name">
+                        </div>
+                        <div>
+                            <label name="cnic">CNIC:</label>
+                            <input type="text" class="form-control fields" name="cnic">
+                        </div>
+
+                        <div>
+                            <label for="grade" >Grade:</label>
+                            <input type="text" class="form-control fields" name="grade">
+                        </div>
+                        <div>
+                            <label for="contact" >Contact:</label>
+                            <input type="number" class="form-control fields" name="contact">
+                        </div>
+                        <div>
+                            <label for="gender">Gender:</label><br>
+                            Male<input type="radio" value="Male"  name="gender">
+                            Female<input type="radio" value="Female" name="gender">
+                        </div>
+                        <div >
+                            <label for="tasks[]">Duties:</label><br>
+                            Staff Supervision<input type="checkbox"  value="Staff Supervision"  name="tasks[]">
+                            Resource Allocation<input type="checkbox" value="Resource Allocation" name="tasks[]">
+                            Asset Management<input type="checkbox" value="Asset Management"  name="tasks[]">
+                        </div>
+                        <input type="submit" class="btn btn-default" value="Update Employee Record">
+                    </form>
+
+                </div>
+            </div>
+            
+</body>
+</html>

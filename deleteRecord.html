@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My CRUD APP- Insert</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+<div class="row">
+    <div class="row">
+        <div class="col-md-2 hleft">
+            <div class="col-md-2">
+                <img class="logo" src="Images/logo.jpg" alt="Not Found">
+            </div>
+        </div>
+        <div class="col-md-7 hright">
+            <h1 class="text-center">Delete Employee Record</h1>
+        </div>
+        <div class="col-md-3 hright">
+        </div>
+        <div class="row">
+            <div class="col-md-2  sidebar">
+                <div class="vList">
+                    <ul class="Vnav">
+                        <li><a  href="home.html">Add Employee</a></li>
+                        <li><a href="updateRecord.html" >Update Employee</a></li>
+                        <li><a class="active" href="deleteRecord.html">Delete Employee</a></li>
+                        <li disabled="true"><a href="#">List Employees</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 content">
+                <div class="container">
+                    <form action="insert.php" method="get" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="empid">Employee ID:</label>
+                            <input class="form-control fields" type="text" name="empid">
+                        </div>
+
+                        <input type="submit" class="btn btn-default" value="Delete Employee">
+                    </form>
+
+                </div>
+            </div>
+
+</body>
+</html>
